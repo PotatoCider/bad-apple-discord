@@ -1,5 +1,15 @@
 # Bad apple on Discord with animated emotes
-[![Bad Apple!! but it's animated emotes on Discord](https://i.imgur.com/oLlGCxg.png)](https://www.youtube.com/watch?v=EGxJysip_yY "Bad Apple!! but it's animated emotes on Discord")
+<div align="center">
+  <br />
+  <p>
+    <a href="https://www.youtube.com/watch?v=EGxJysip_yY"><img src="https://i.imgur.com/oLlGCxg.png" alt="Bad Apple!! but it's animated emotes on Discord" /></a>
+  </p>
+  <br />
+  <p>
+    <a href="https://discord.gg/pXpV9zctap"><img src="https://img.shields.io/discord/810176692068679711?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
+  </p>
+</div>
+
 # Requirements
 - Bash
 - [ffmpeg](https://www.ffmpeg.org/)
