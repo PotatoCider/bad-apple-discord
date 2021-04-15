@@ -3,21 +3,21 @@
 mkdir -p output/original
 mkdir -p output/final
 cd output
-# i=0
-# h=48
-# for y in {0..359..48};
-# do
-#     for x in {0..479..48};
-#     do
-#         if (( y == 336 )); then
-#             h=24
-#         else
-#             h=48
-#         fi
-#         ffmpeg -i ../bad-apple-original.mp4 -r 12 -filter:v "crop=48:${h}:${x}:${y},format=yuv420p" -s 30x30 "original/${i}.gif"
-#         ((i=i+1))
-#     done
-# done
+i=0
+h=48
+for y in {0..359..48};
+do
+    for x in {0..479..48};
+    do
+        if (( y == 336 )); then
+            h=24
+        else
+            h=48
+        fi
+        ffmpeg -i ../bad-apple-original.mp4 -r 12 -filter:v "crop=48:${h}:${x}:${y},format=yuv420p" -s 30x30 "original/${i}.gif"
+        ((i=i+1))
+    done
+done
 
 cd original
 
